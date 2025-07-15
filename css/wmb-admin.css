@@ -1,0 +1,50 @@
+/* WooCommerce Dynamic Merchandising Booster Admin Styles */
+.nav-tab-wrapper {
+	margin-bottom: 20px;
+}
+
+.nav-tab {
+	background: #f1f1f1;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+	padding: 8px 12px;
+}
+
+.nav-tab-active,
+.nav-tab:hover {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.wmb-rule {
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+
+.wmb-rule label {
+	display: inline-block;
+	width: 200px;
+}
+
+.wmb-rule input[type="text"],
+.wmb-rule input[type="number"],
+.wmb-rule select {
+	width: 300px;
+}
+
+#wmb-analytics {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 15px;
+}
+
+#wmb-analytics ul {
+	list-style: none;
+	padding: 0;
+}
+
+#wmb-analytics li {
+	margin-bottom: 10px;
+}
