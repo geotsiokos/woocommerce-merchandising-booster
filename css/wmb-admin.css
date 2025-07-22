@@ -15,7 +15,9 @@
 	background: #fff;
 	border-bottom: 1px solid #fff;
 }
-
+.hidden {
+	display: none;
+}
 .wmb-rule {
 	border: 1px solid #ddd;
 	padding: 15px;
