@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 
 // Check premium license (placeholder)
 function wmb_is_premium() {
-	return get_option('wmb_premium_license', false);
+	return get_option('wmb_premium_license', true);
 }
 
 // Enqueue admin styles
@@ -144,6 +144,7 @@ function wmb_settings_page() {
 // Render rules field
 function wmb_rules_field() {
     $settings = get_option('wmb_settings', array());
+    error_log( "WMB Settings " . print_r( $settings, true ) );
     $rules = $settings['rules'] ?? array();
     $stock_threshold = $settings['stock_threshold'] ?? 5;
     $is_premium = wmb_is_premium();
